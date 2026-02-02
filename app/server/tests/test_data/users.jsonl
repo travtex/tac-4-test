@@ -1,0 +1,10 @@
+{"id": 1, "name": "Alice Johnson", "email": "alice@example.com", "address": {"city": "New York", "state": "NY", "zip": "10001"}, "tags": ["premium", "verified"], "age": 28}
+{"id": 2, "name": "Bob Smith", "email": "bob@example.com", "address": {"city": "Los Angeles", "state": "CA", "zip": "90001"}, "tags": ["basic"], "age": 35}
+{"id": 3, "name": "Charlie Davis", "email": "charlie@example.com", "address": {"city": "Chicago", "state": "IL", "zip": "60601"}, "tags": ["premium"], "age": 42, "phone": "555-1234"}
+{"id": 4, "name": "Diana Prince", "email": "diana@example.com", "address": {"city": "Miami", "state": "FL", "zip": "33101"}, "tags": ["verified", "vip"], "age": 31}
+{"id": 5, "name": "Ethan Hunt", "email": "ethan@example.com", "address": {"city": "Seattle", "state": "WA", "zip": "98101"}, "tags": ["basic", "new"], "preferences": {"theme": "dark", "notifications": true}}
+{"id": 6, "name": "Fiona Green", "email": "fiona@example.com", "address": {"city": "Austin", "state": "TX", "zip": "73301"}, "tags": ["premium", "verified", "beta"], "age": 29}
+{"id": 7, "name": "George Wilson", "email": "george@example.com", "address": {"city": "Boston", "state": "MA", "zip": "02101"}, "tags": ["basic"], "age": 55}
+{"id": 8, "name": "Hannah Lee", "email": "hannah@example.com", "address": {"city": "Denver", "state": "CO", "zip": "80201"}, "tags": ["premium"], "age": 26, "preferences": {"theme": "light", "notifications": false}}
+{"id": 9, "name": "Ian Malcolm", "email": "ian@example.com", "address": {"city": "Portland", "state": "OR", "zip": "97201"}, "tags": ["verified"], "age": 48, "phone": "555-5678"}
+{"id": 10, "name": "Julia Roberts", "email": "julia@example.com", "address": {"city": "Phoenix", "state": "AZ", "zip": "85001"}, "tags": ["vip", "premium"], "age": 33, "preferences": {"theme": "dark", "notifications": true}, "phone": "555-9999"}

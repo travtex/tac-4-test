@@ -182,8 +182,15 @@ def check_claude_code() -> CheckResult:
             )
 
         if result.returncode != 0:
+            stdout_content = ""
+            try:
+                with open(output_file, "r") as f:
+                    stdout_content = f.read()
+            except:
+                pass
             return CheckResult(
-                success=False, error=f"Claude Code test failed: {result.stderr}"
+                success=False, 
+                error=f"Claude Code test failed (exit {result.returncode}): {result.stderr or stdout_content[-1000:]}"
             )
 
         # Parse output to verify it worked
